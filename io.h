@@ -11,7 +11,7 @@ void putstr(const char * str) {
     
 }
 
-void now_ms(uint64_t * out) {
+int now_ms(uint64_t * out) {
 
 }
 
