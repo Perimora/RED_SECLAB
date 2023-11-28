@@ -1,6 +1,6 @@
 # Compiler and flags
 CC = riscv32-unknown-elf-gcc
-CFLAGS = -march=rv32imac -mabi=ilp32 -O2 -nostartfiles -I$(CURDIR)
+CFLAGS = -march=rv32imac -O2 -nostartfiles -I$(CURDIR)
 
 # Source files
 SRCS = main.c
