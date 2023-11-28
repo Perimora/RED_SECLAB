@@ -1,6 +1,11 @@
 #ifndef MSG_H
 #define MSG_H
 
+typedef struct
+{
+  char *chars;
+}magic_t;
+
 int send_msg_magic() {
 
 }

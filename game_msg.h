@@ -23,12 +23,6 @@ typedef struct {
   } body;
 } game_msg_t;
 
-typedef struct
-{
-  char *chars;
-}magic_t;
-
-
 __attribute__((always_inline)) inline
 int ping() {
   game_msg_t msg = {
