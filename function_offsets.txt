@@ -1,0 +1,10 @@
+main.c:
+
+putstr() -- tp + 38
+now_ms() -- tp +
+alarm_ms() -- tp +
+
+game_msg.h:
+
+send_msg_magic() -- tp +
+log_printf() -- tp + 70
