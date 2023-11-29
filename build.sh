@@ -6,7 +6,7 @@ input_file="red.bin"
 output_file="RED.txt"
 
 # Encode binary file to base64 and save the result in the output file
-base64 "$input_file" > "./out/$output_file"
+base64 "$input_file" > "$output_file"
 
 make clean
 
