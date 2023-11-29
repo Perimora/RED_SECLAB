@@ -1,10 +1,10 @@
 main.c:
 
-putstr() -- tp + 38
-now_ms() -- tp +
-alarm_ms() -- tp +
+putstr() -- tp + 0x38
+now_ms() -- tp + 0x54
+alarm_ms() -- tp + 0x64
 
 game_msg.h:
 
-send_msg_magic() -- tp +
-log_printf() -- tp + 70
+send_msg_magic() -- tp + 0x78
+log_printf() -- tp + 0x70
